@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .modal {
@@ -20,8 +21,29 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+
+  display: flex;
+  gap: 20px;
+  
+}
+.icon-container,
+.main-text {
+  margin: 10px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 15px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
